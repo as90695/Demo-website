@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #11999E;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border: none;
+    border-top-style: dotted;
+    border-color: #FB2576;
+    border-width: 10px;
+    line-height: 2;
+    width: 5%;
+    margin: 50px auto;
+}
+
+/* 1em = 16px so if we want to have 90px font size we have to divide 90/16=5.625em */
+
+/* span tag formatting */
+
+.pro {
+    text-decoration: underline;
+}
+
+/* upper part formatting */
+
+.main {
+    position: relative;
+    background-color: #F3EFE0;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.right-cloud {
+    position: absolute;
+    right: 18%;
+    top: 15%;
+}
+
+.left-cloud {
+    position: absolute;
+    left: 20%;
+}
+
+.heading {
+    position: relative;
+    margin-top: 10%;
+    /* 100%= 16px = 1em */
+    font-size: 7rem;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.span {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+/* Middle section */
+
+.profile {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.boy-img {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.skillset {
+    margin-top: 40px;
+    line-height: 2;
+    font-size: 4em;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-img-1 {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.btn {
+    line-height: 6;
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 1px 3px #66BFBF;
+    -moz-box-shadow: 0px 1px 3px #66BFBF;
+    box-shadow: 0px 1px 3px #66BFBF;
+    font-family: Georgia;
+    color: #fff7fc;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/* footer- section */
+.bottom-container {
+    background-color: #66BFBF;
+    padding-bottom: 2em;
+}
+
+.ski {
+    margin: 0 auto 20px auto;
+}
+
+.last-p {
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 2;
+    margin-top: 40px;
+}
+
+.copy {
+    margin-top: 50px;
+    color: white;
+}
+
+.footer-link {
+    position: relative;
+    padding-top: 10px;
+    margin: 20px;
+    top: 20px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
