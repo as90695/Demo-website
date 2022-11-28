@@ -169,10 +169,15 @@ hr {
 }
 
 .footer-link {
+    text-decoration: none;
     position: relative;
     padding-top: 10px;
     margin: 20px;
     top: 20px;
     font-weight: bolder;
     font-size: 1.5rem;
+}
+
+.footer-link:hover {
+    color: white;
 }
